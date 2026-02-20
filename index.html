@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Food Website clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="kfc-header">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-items-center justify-content-between">
+
+                <div class="d-flex align-items-center gap-3">
+                    <img src="./images/Logo.png" class="logo" alt="Kababjees">
+
+                    <div class="pill d-none d-md-flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <div class="title fw-bold">Change Branch</div>
+                            <div class="sub">5 Star Chowrangi S/A3</div>
+                        </div>
+                    </div>
+
+                    <div class="pill d-none d-md-flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <div class="title">Contact us</div>
+                            <div class="sub">021-111-666-111</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <div class="complaint d-none d-lg-block">
+                        <div class="title">Submit Your Complaint</div>
+                        <div class="sub">From Complaint to Care - Share With Us</div>
+                        <i class="fa-solid fa-file-lines"></i>
+                    </div>
+
+                    <div class="cart">
+                        <img src="./images/Cart.svg">
+                        <span>0</span>
+                    </div>
+
+                    <div class="menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="hed_img ">
+                <img src="./images/1761988958-566642512-2644144789270118-7248347062835041410-n.webp" alt="Header Banner">
+            </div>
+    </header>
+
+    <div class="category-wrap ">
+        <div class="category-list">
+
+            <div class="cat-item">
+                <img src="./images/2.webp" alt="">
+                <p class="hr">Winter Deals</p>
+            </div>
+
+            <div class="cat-item">
+                <img src="./images/3.webp" alt="">
+                <p class="hr">New Arrival</p>
+            </div>
+
+            <div class="cat-item">
+                <img src="./images/4.webp" alt="">
+                <p class="hr">Meal Deals</p>
+            </div>
+
+            <div class="cat-item">
+                <img src="./images/7.webp" alt="">
+                <p class="hr">Beef Range</p>
+            </div>
+
+            <div class="cat-item">
+                <img src="./images/8.webp" alt="">
+                <p class="hr">Fresh Croissant<br class="hr">Sandwiches</p>
+            </div>
+
+            <div class="cat-item active">
+                <img src="./images/9.webp" alt="">
+                <p class="hr">Lacha Paratha<br class="hr">Burger</p>
+            </div>
+
+            <div class="cat-item">
+                <img src="./images/6.webp" alt="">
+                <p class="hr">Exclusive Family<br class="hr">Deals</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="search-wrap">
+        <div class="search-box">
+            <span class="search-icon">🔍</span>
+            <input type="text" placeholder="Search for summer deal">
+            <button class="search-btn">➜</button>
+        </div>
+    </div>
+
+    <div class="container cards">
+        <div class="heading">
+            <img class="gif" src="./images/popular-item.gif" alt="gif">
+            <div class="heading_a">Popular Now </div>
+        </div>
+
+            <div class="container">
+                <div class="row g-4">
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="food-card d-flex flex-column">
+                            <div class="food-image">
+                                <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=500" alt="">
+                            </div>
+                            <div class="food-info d-flex flex-column justify-content-between">
+                                <h5>Lacha Paratha Deal</h5>
+                                <div class="price-row d-flex justify-content-between align-items-center">
+                                    <span>Rs. 1190</span>
+                                    <button class="add-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="food-card d-flex flex-column">
+                            <div class="food-image">
+                                <img src="https://images.unsplash.com/photo-1566740933430-b5e70b06d2d5?q=80&w=500" alt="">
+                            </div>
+                            <div class="food-info d-flex flex-column justify-content-between">
+                                <h5>Spicy Gigantic Burrito</h5>
+                                <div class="price-row d-flex justify-content-between align-items-center">
+                                    <span>Rs. 590</span>
+                                    <button class="add-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="food-card highlight d-flex flex-column">
+                            <div class="food-image">
+                                <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=500" alt="">
+                            </div>
+                            <div class="food-info d-flex flex-column justify-content-between">
+                                <h5>StripZilla</h5>
+                                <div class="price-row d-flex justify-content-between align-items-center">
+                                    <span>Rs. 390</span>
+                                    <button class="add-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="food-card d-flex flex-column">
+                            <div class="food-image">
+                                <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=500" alt="">
+                            </div>
+                            <div class="food-info d-flex flex-column justify-content-between">
+                                <h5>SUMMER DEAL 1</h5>
+                                <div class="price-row d-flex justify-content-between align-items-center">
+                                    <span>Rs. 620</span>
+                                    <button class="add-btn">+</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+
+    <div class="ex_img-1">
+        <img src="./images/1764835273-Winter-Deals.webp">
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="custom-food-card">
+                    <div class="card-img-box red-bg">
+                        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=500" alt="Nuggets">
+                    </div>
+                    <div class="card-body-content">
+                        <h3 class="food-title">Arabic Nuggets Deal</h3>
+                        <p class="food-text">6 pc Arabic Spicy Nuggets along with Fries, Al Baik Sauce, 1 Honey Mustard..</p>
+                        <div class="food-footer">
+                            <span class="food-price">Rs. 990</span>
+                            <button class="exact-add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="custom-food-card">
+                    <div class="card-img-box red-bg">
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=500" alt="Fish">
+                    </div>
+                    <div class="card-body-content">
+                        <h3 class="food-title">Arabic Fish Nuggets Deal</h3>
+                        <p class="food-text">6 pc Arabic Spicy Fish Nuggets along with Fries, Al Baik Sauce, 1 Honey Mustard..</p>
+                        <div class="food-footer">
+                            <span class="food-price">Rs. 1090</span>
+                            <button class="exact-add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="custom-food-card">
+                    <div class="card-img-box">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=500" alt="Paratha">
+                    </div>
+                    <div class="card-body-content">
+                        <h3 class="food-title">Lacha Paratha Deal</h3>
+                        <p class="food-text">Any Chicken Lacha Paratha, any Beef Lacha Paratha along with 2 Drinks</p>
+                        <div class="food-footer">
+                            <span class="food-price">Rs. 1190</span>
+                            <button class="exact-add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="custom-food-card">
+                    <div class="card-img-box white-bg">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500" alt="Burger">
+                    </div>
+                    <div class="card-body-content">
+                        <h3 class="food-title">SUMMER DEAL 1</h3>
+                        <p class="food-text">Chick N Crunch, Crispy Chicken Pc & Regular Drink [Can/345ml Drink]..</p>
+                        <div class="food-footer">
+                            <span class="food-price">Rs. 620</span>
+                            <button class="exact-add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ex_img-1">
+        <img src="./images/1760681828-its-fishtastic.webp">
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="food-deal-card">
+                    <div class="img-container">
+                        <div class="deal-badge">BEST SELLER</div>
+                        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=500" alt="Arabic Nuggets">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="food-title">Arabic Nuggets Deal</h3>
+                        <p class="food-desc">6 pc Arabic Spicy Nuggets along with Fries, Al Baik Sauce, 1 Honey Mustard..</p>
+                        <div class="card-footer-action">
+                            <span class="price-tag">Rs. 990</span>
+                            <button class="exact-btn-add">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="food-deal-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=500" alt="Fish Nuggets">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="food-title">Arabic Fish Nuggets Deal</h3>
+                        <p class="food-desc">6 pc Arabic Spicy Fish Nuggets along with Fries, Al Baik Sauce, 1 Honey Mustard..</p>
+                        <div class="card-footer-action">
+                            <span class="price-tag">Rs. 1090</span>
+                            <button class="exact-btn-add">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="food-deal-card">
+                    <div class="img-container">
+                        <div class="deal-badge" style="background-color: #000;">POPULAR</div>
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=500" alt="Lacha Paratha">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="food-title">Lacha Paratha Deal</h3>
+                        <p class="food-desc">Any Chicken Lacha Paratha, any Beef Lacha Paratha along with 2 Drinks</p>
+                        <div class="card-footer-action">
+                            <span class="price-tag">Rs. 1190</span>
+                            <button class="exact-btn-add">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-12">
+                <div class="food-deal-card">
+                    <div class="img-container">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=500" alt="Summer Deal">
+                    </div>
+                    <div class="card-info">
+                        <h3 class="food-title">SUMMER DEAL 1</h3>
+                        <p class="food-desc">Chick N Crunch, Crispy Chicken Pc & Regular Drink [Can/345ml Drink]..</p>
+                        <div class="card-footer-action">
+                            <span class="price-tag">Rs. 620</span>
+                            <button class="exact-btn-add">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="ex_img-1">
+        <img src="./images/1760682057-new-arrivals.webp">
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="product-card">
+                    <img src="./images/AR.webp" alt="">
+                    <div class="product-body">
+                        <h6>Fish & Chips With Tarter...</h6>
+                        <p>
+                            A delectable duo of crispy, golden-fried fish served
+                            alongside a generous portio...
+                        </p>
+                        <div class="product-footer">
+                            <span class="price">Rs. 890</span>
+                            <button class="add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="product-card">
+                    <img src="./images/AR1.webp" alt="">
+                    <div class="product-body">
+                        <h6>Fish & Chips With Al Bai...</h6>
+                        <p>
+                            A delectable duo of crispy, golden-fried fish perfectly
+                            paired with a generous...
+                        </p>
+                        <div class="product-footer">
+                            <span class="price">Rs. 890</span>
+                            <button class="add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="product-card">
+                    <img src="./images/AR3.webp" alt="">
+                    <div class="product-body">
+                        <h6>Fish Burger With Tarter...</h6>
+                        <p>
+                            Perfectly crispy fried fish nestled in soft, pillowy buns,
+                            paired with a rich and...
+                        </p>
+                        <div class="product-footer">
+                            <span class="price">Rs. 650</span>
+                            <button class="add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="product-card">
+                    <img src="./images/AR4.webp" alt="">
+                    <div class="product-body">
+                        <h6>Fish Burger With Al Bai...</h6>
+                        <p>
+                            Perfectly crispy fried fish nestled in soft, fluffy buns,
+                            enhanced with Kababjees...
+                        </p>
+                        <div class="product-footer">
+                            <span class="price">Rs. 650</span>
+                            <button class="add-btn">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<footer class="site-footer">
+    <div class="footer-line"></div>
+
+    <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-9">
+                <img src="./images/Logo.png" class="footer-logo" alt="">
+                <h5 class="footer-title">
+                    Kababjees Fried Chicken – Redefining the fast-food experience with its
+                    exceptional fried chicken
+                </h5>
+                <p class="footer-desc">
+                    This haven for fried chicken enthusiasts serves up an array of tantalizing
+                    options, featuring a menu that boasts the crispiest and most flavorful chicken
+                    in the city. At Kababjees Fried Chicken, each dish is a masterpiece.
+                </p>
+                <a href="#" class="footer-read">Read more</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row text-center text-lg-start align-items-start g-4">
+            <div class="col-lg-3 col-md-4">
+                <h6 class="footer-heading">Contact us</h6>
+                <p class="footer-contact">
+                   <div> <i class="fa-solid fa-phone"></i> 021-111-666-111</div>
+                </p>
+            </div>
+
+            <div class="col-lg-3 col-md-4">
+                <h6 class="footer-heading">Follow us</h6>
+                <div class="footer-social">
+                   <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-4">
+                <h6 class="footer-heading">Get The App!</h6>
+                <p class="footer-desc-sm">
+                    App is where the fun is! It’s Easy, Fast And Convenient
+                </p>
+
+                <div class="app-wrap">
+                    <img src="./images/mockupbg.webp" class="app-mobile" alt="">
+                    <div class="app-btns">
+                        <img src="./images/app-store.webp" alt="">
+                        <img src="./images/google-play.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copy text-center">
+            Powered by <strong>Indolj</strong> |
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Faqs</a>
+        </div>
+    </div>
+</footer>
+<script src="app.js"></script>
+</body>
+
+</html>
