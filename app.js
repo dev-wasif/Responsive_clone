@@ -30,11 +30,7 @@
             title: "StripZilla",
             price: "Rs. 390"
         },
-        {
-            src: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?q=80&w=500",
-            title: "SUMMER DEAL 1",
-            price: "Rs. 620"
-        }
+      
     ];
     
     for (let i = 0; i < data.length; i++) {
