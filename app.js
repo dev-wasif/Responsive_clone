@@ -15,6 +15,18 @@
             price: "Rs. 1190"
         },
 
+          {
+            src: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=500",
+            title: "Lacha Paratha Deal",
+            price: "Rs. 1190"
+        },
+
+          {
+            src: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=500",
+            title: "Lacha Paratha Deal",
+            price: "Rs. 1190"
+        },
+
             {
             src: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=500",
             title: "Lacha Paratha Deal",
@@ -36,10 +48,10 @@
     for (let i = 0; i < data.length; i++) {
 
         let col = document.createElement("div");
-        col.className = "col-lg-3 col-md-6 col-sm-12 mb-4";
+        col.className = " d-flex jusitify-content-centercol-lg-3 col-md-6 col-sm-12 mb-4";
 
         let card = document.createElement("div");
-        card.className = "food-card d-flex flex-column h-100";
+        card.className = "food-card d-flex  flex-column h-100";
 
         let imageDiv = document.createElement("div");
         imageDiv.className = "food-image";
